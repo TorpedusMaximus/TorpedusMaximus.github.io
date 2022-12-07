@@ -2,21 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Dokter</title>
 </head>
-<body>
+<body style="background-image: url('dokter_pc.png'); background-repeat: no-repeat; background-size: cover;background-color: #298aab">
+<div style="margin:0 auto;width: 700px">
+    <h1>
+        Dokter - Twój Przyjaciel w Poszukiwaniu Przyjaciela Researchera
+    </h1>
+</div>
 
 <FORM method="post" action="https://piwim-server-hqm5ttv7nq-lm.a.run.app">
-    login<input name="login" type="text">
-    password<input name="password" type="text">
+    <table style="margin:0 auto">
+        <tr>
+            <td> Login:</td>
+            <td><input name="login" type="text"></td>
+        </tr>
+        <tr>
+            <td> Hasło:</td>
+            <td><input name="password" type="text"></td>
+        </tr>
+        <tr>
+            <td>Imie:</td>
+            <td><input name="imie" type="text"></td>
+        </tr>
+        <tr>
+            <td>Nazwisko:</td>
+            <td><input name="nazwisko" type="text"></td>
+        </tr>
+        <tr>
+            <td>Wiek:</td>
+            <td><input name="wiek" type="text"></td>
+        </tr>
+        <tr>
+            <td>Uczelnia:</td>
+            <td><input name="uczelnia" type="text"></td>
+        </tr>
+        <tr>
+            <td>Numer telefonu:</td>
+            <td><input name="numer_telefonu" type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Zainteresowania:</label></td>
+            <td><select name="z1">
+            <option value="1">Zawal serca</option>
+            <option value="2">Arytmia</option>
+            <option value="3">Jaskra</option>
+            <option value="4">Stozek rogowki</option>
+            <option value="5">Zlamania</option>
+            <option value="6">Zespol Downa</option>
+            <option value="7">Zespol Kushinga</option>
+            <option value="8">Choroba Wilsona</option>
+            <option value="9">Malformacja Chiariego</option>
+            <option value="10">Choroba Crohna</option>
+        </select></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><select name="z2">
+                <option value="1">Zawal serca</option>
+                <option value="2">Arytmia</option>
+                <option value="3">Jaskra</option>
+                <option value="4">Stozek rogowki</option>
+                <option value="5">Zlamania</option>
+                <option value="6">Zespol Downa</option>
+                <option value="7">Zespol Kushinga</option>
+                <option value="8">Choroba Wilsona</option>
+                <option value="9">Malformacja Chiariego</option>
+                <option value="10">Choroba Crohna</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><select name="z3">
+                <option value="1">Zawal serca</option>
+                <option value="2">Arytmia</option>
+                <option value="3">Jaskra</option>
+                <option value="4">Stozek rogowki</option>
+                <option value="5">Zlamania</option>
+                <option value="6">Zespol Downa</option>
+                <option value="7">Zespol Kushinga</option>
+                <option value="8">Choroba Wilsona</option>
+                <option value="9">Malformacja Chiariego</option>
+                <option value="10">Choroba Crohna</option>
+            </select></td>
+        </tr>
 
-    <input type="" >
-
-
-    <input value="web" name="source" style="display: none" type="text">
-    <input value="create_account" name="function" style="display: none" type="text">
-
-    <input type="submit">
+        <input value="wolny" name="status" style="display: none" type="text">
+        <input value="0" name="ilosc_aktywnych_projektow" style="display: none" type="text">
+        <input value="web" name="source" style="display: none" type="text">
+        <input value="create_account" name="function" style="display: none" type="text">
+        <tr>
+            <td colspan="2" style="text-align: center"><input value="Załóż konto" type="submit"></td>
+        </tr>
+    </table>
 </FORM>
 
 </body>
